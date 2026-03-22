@@ -1,22 +1,23 @@
-# CurveCart — India's Largest Plus-Size Fashion Aggregator
+# Better — India's Largest Plus-Size Fashion Aggregator
 
 A curated e-commerce aggregator bringing together 20+ plus-size women's clothing brands from Myntra, Ajio, Nykaa Fashion, and D2C stores — all in one place.
 
 ## Features
 
-- **20+ Brands** — Sztori, plusS, LASTINCH, Amydus, The Pink Moon, Apella, Meera's, RustOrange, Desinoor, Qurvii, theRebelinme, and more
+- **20+ Brands** — Sztori, plusS, LASTINCH, Amydus, The Pink Moon, Apella, Meera's, RustOrange, Desinoor, Qurvii, and more
 - **500+ Products** — Generated from real brand catalogues with accurate categories, pricing, and sizing
-- **Comprehensive Filters** — Category, Brand, Price, Size (XL to 10XL), Color, Discount, Occasion, Fabric, Pattern, Fit, Platform
+- **Hero Carousel** — 4-slide auto-advancing banner showcasing collections, deals, and wedding specials
+- **Brand Logos** — Visual brand directory with logo circles and names on homepage
+- **Mobile-First Design** — No horizontal scroll, 2-column grid on mobile, fully responsive
+- **11 Filter Dimensions** — Category, Brand, Price, Size (XL–10XL), Color, Discount, Occasion, Fabric, Pattern, Fit, Platform
 - **Cross-Platform Tags** — See when a product is available on multiple platforms with price comparison
-- **Brand Directory** — Detailed brand pages with ratings, reviews, and product counts
-- **Wishlist** — Save favourites across browsing sessions
-- **Product Detail** — Full product info, reviews, size selection, care instructions, and direct buy links
-- **Responsive Design** — Works on desktop, tablet, and mobile
+- **Wishlist** — Save favourite products across browsing sessions
+- **Product Detail Modal** — Full product info, reviews, size selection, care instructions, and direct buy links
 
 ## Tech Stack
 
 - React 18
-- CSS (custom, no framework)
+- CSS (custom, mobile-first, no framework)
 - Deployed on Railway
 
 ## Local Development
@@ -30,32 +31,23 @@ npm start
 
 1. Push to GitHub
 2. Connect repo in [Railway](https://railway.app)
-3. Railway auto-detects the React app and deploys
+3. Railway auto-detects and deploys
 
 ## Brands Covered
 
-| Brand | Type | Platforms | Size Range |
-|-------|------|-----------|------------|
-| Sztori | Marketplace | Myntra, Ajio | XL – 8XL |
-| plusS | Marketplace | Myntra, Nykaa | XL – 6XL |
-| LASTINCH | D2C | Own, Myntra, Ajio | XXS – 8XL |
-| Amydus | D2C | Own, Myntra, Amazon | L – 9XL |
-| The Pink Moon | D2C | Own, Myntra | L – 10XL |
-| Apella | D2C | Own | XS – 10XL |
-| Meera's Plus Size | D2C | Own | XS(36) – 10XL(62) |
-| RustOrange | D2C | Own, Myntra, Ajio | S – 7XL |
-| Desinoor | D2C | Own, Amazon | L – 8XL |
-| Qurvii | Marketplace | Myntra, Ajio, Nykaa | XL – 6XL |
-| theRebelinme | Marketplace | Myntra | XL – 5XL |
-| Indietoga | Marketplace | Myntra, Ajio | XL – 7XL |
-| Miss Chase A+ | Marketplace | Myntra, Nykaa | XL – 5XL |
-| SASSAFRAS Curve | Marketplace | Myntra | XL – 4XL |
-| Oxolloxo | Marketplace | Myntra, Ajio | XL – 5XL |
-| Berrylush Curve | D2C | Own, Myntra | XL – 4XL |
-| Pluss | D2C | Own, Myntra, Ajio | S – 10XL |
-| Etraana | Marketplace | Ajio | XL – 5XL |
-| Big Hello | Marketplace | Myntra | XL – 6XL |
-| Women Plus | D2C | Own | S – 10XL |
+| Brand | Platforms | Size Range |
+|-------|-----------|------------|
+| Sztori | Myntra, Ajio | XL – 8XL |
+| plusS | Myntra, Nykaa | XL – 6XL |
+| LASTINCH | Own, Myntra, Ajio | XXS – 8XL |
+| Amydus | Own, Myntra, Amazon | L – 9XL |
+| The Pink Moon | Own, Myntra | L – 10XL |
+| Apella | Own Website | XS – 10XL |
+| Meera's Plus Size | Own Website | XS – 10XL |
+| RustOrange | Own, Myntra, Ajio | S – 7XL |
+| Desinoor | Own, Amazon | L – 8XL |
+| Qurvii | Myntra, Ajio, Nykaa | XL – 6XL |
+| + 10 more brands | Various | XL – 10XL |
 
 ## License
 
